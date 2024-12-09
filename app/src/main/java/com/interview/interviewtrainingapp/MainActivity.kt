@@ -28,14 +28,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    //NavHost()
-                    Column {
-                        Button(onClick = {
-                            showToastMessage("This is test message")
-                        }) {
-                            
-                        }
-                    }
+                    NavHost()
                 }
             }
         }
